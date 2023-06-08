@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<link rel="stylesheet" href="/static/formstyle.css">
+        <title>Mix a Color</title>
+    </head>
+    
+    <body>
+		<h1>Mix a color using RGB values!</h1>
+		<hr>
+        <form action='/results' method='post'>
+			<label for="redamt">Enter the amount of red (up to 255):</label>
+			<br>
+			<input type="number" id="redamt" name="redamt" min="0" max="255">
+			<br>
+			<label for="greenamt">Enter the amount of green (up to 255):</label>
+			<br>
+			<input type="number" id="greenamt" name="greenamt" min="0" max="255">
+			<br>
+			<label for="blueamt">Enter the amount of blue (up to 255):</label>
+			<br>
+			<input type="number" id="blueamt" name="blueamt" min="0" max="255">
+			<br>
+			<input type="submit">
+        </form>
+    </body>
+</html>

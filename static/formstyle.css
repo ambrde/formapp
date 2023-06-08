@@ -1,0 +1,31 @@
+input{
+	margin: 8px;
+}
+
+body{
+	font-family: sans-serif;
+	text-align: center;
+}
+
+div{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+
+input[type=submit] {
+	background-color: gray;
+	border: none;
+	color: white;
+	padding: 12px;
+	cursor: pointer;
+}
+
+a {
+	background-color: gray;
+	border: none;
+	text-decoration: none;
+	color: white;
+	padding: 12px;
+	cursor: pointer;
+}
